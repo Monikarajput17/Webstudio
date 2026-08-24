@@ -11,6 +11,7 @@ Main pages:
 - `pricing.html`
 - `process.html`
 - `contact.html`
+- `thank-you.html`
 
 Demo pages:
 - `restaurant.html`
