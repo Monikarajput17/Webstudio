@@ -28,12 +28,14 @@
         <article class="contact-panel reveal">
           <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify action="/thank-you.html">
             <input type="hidden" name="form-name" value="contact" />
-            <label>Your Name<input name="name" type="text" placeholder="Your name" required /></label>
-            <label>Business Name<input name="business" type="text" placeholder="Business name" /></label>
-            <label class="full">Phone or Email<input name="contact" type="text" placeholder="+91 ... or you@example.com" required /></label>
+            <label>Name<input name="name" type="text" placeholder="Your name" required /></label>
+            <label>Business Name<input name="business-name" type="text" placeholder="Business name" /></label>
+            <label>Phone<input name="phone" type="tel" placeholder="+91 ..." required /></label>
+            <label>Email<input name="email" type="email" placeholder="you@example.com" required /></label>
             <label>Business Type<select name="business-type" required><option value="">Select an option</option><option>Restaurant</option><option>School</option><option>Coaching Institute</option><option>Gym</option><option>Yoga Studio</option><option>Clinic</option><option>Salon</option><option>Other</option></select></label>
-            <label>Budget Range<select name="budget" required><option value="">Select an option</option><option>&#8377;5,000-&#8377;7,000</option><option>&#8377;7,000-&#8377;10,000</option><option>&#8377;10,000+</option></select></label>
-            <label class="full">Pages or Features Needed<input name="features" type="text" placeholder="Home, services, gallery, WhatsApp, Google Maps..." /></label>
+            <label>Website Type<select name="website-type" required><option value="">Select an option</option><option>New website</option><option>Website redesign</option><option>Landing page</option><option>Portfolio website</option><option>Business website</option><option>Not sure yet</option></select></label>
+            <label class="full">Budget Range<select name="budget-range" required><option value="">Select an option</option><option>&#8377;5,000-&#8377;7,000</option><option>&#8377;7,000-&#8377;10,000</option><option>&#8377;10,000+</option></select></label>
+            <label class="full">Pages or Features Needed<input name="pages-features" type="text" placeholder="Home, services, gallery, WhatsApp, Google Maps..." /></label>
             <label class="full">Message<textarea name="message" rows="5" placeholder="Tell me what you want to build" required></textarea></label>
             <button class="btn primary" type="submit">Send Enquiry</button>
           </form>
