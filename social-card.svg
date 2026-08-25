@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Monika Web Studio social preview">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fffaf1"/>
+      <stop offset="0.54" stop-color="#f7efe3"/>
+      <stop offset="1" stop-color="#102735"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0d766f"/>
+      <stop offset="1" stop-color="#bd7a2d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="78" y="78" width="1044" height="474" rx="38" fill="#fffaf1" opacity="0.92"/>
+  <rect x="114" y="116" width="82" height="82" rx="20" fill="url(#mark)"/>
+  <text x="155" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#fffaf1">MW</text>
+  <text x="224" y="148" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#102735">Monika Web Studio</text>
+  <text x="224" y="186" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#5f6d73" letter-spacing="3">WEB DESIGN &amp; DEVELOPMENT</text>
+  <text x="114" y="300" font-family="Georgia, serif" font-size="66" font-weight="700" fill="#102735">Website Designer in Ludhiana</text>
+  <text x="114" y="360" font-family="Arial, sans-serif" font-size="30" fill="#40525a">Premium mobile-first websites for restaurants, schools, gyms,</text>
+  <text x="114" y="402" font-family="Arial, sans-serif" font-size="30" fill="#40525a">salons, clinics and growing local businesses.</text>
+  <rect x="114" y="456" width="268" height="58" rx="18" fill="#bd7a2d"/>
+  <text x="248" y="494" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#fffaf1">From Rs 5,000</text>
+</svg>

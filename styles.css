@@ -649,7 +649,8 @@ p {
 .price-card,
 .compare-card,
 .contact-panel,
-.mini-card {
+.mini-card,
+.faq-item {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--surface);
@@ -753,6 +754,71 @@ li {
   background: rgba(255, 255, 255, 0.72);
   color: var(--muted);
   text-align: center;
+}
+
+.local-seo-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.65fr);
+  gap: 28px;
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: clamp(28px, 4vw, 44px);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.94), rgba(250, 246, 238, 0.88));
+  box-shadow: var(--shadow-soft);
+}
+
+.local-seo-panel .section-head {
+  max-width: 760px;
+}
+
+.local-link-list {
+  display: grid;
+  gap: 10px;
+}
+
+.local-link-list a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 48px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  color: var(--ink);
+  font-weight: 800;
+  background: rgba(255, 255, 255, 0.78);
+  transition: transform 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.local-link-list a::after {
+  content: "->";
+  color: var(--accent);
+}
+
+.local-link-list a:hover {
+  color: var(--teal);
+  border-color: rgba(13, 118, 111, 0.28);
+  transform: translateY(-2px);
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.faq-item {
+  padding: 20px;
+}
+
+.faq-item h3 {
+  margin-bottom: 8px;
+  font-size: 1.02rem;
+}
+
+.faq-item p {
+  color: var(--muted);
 }
 
 .process-grid {
@@ -1350,6 +1416,7 @@ li {
   .contact-grid,
   .service-category,
   .proposal-strip,
+  .local-seo-panel,
   .client-hero,
   .client-split {
     grid-template-columns: 1fr;
@@ -1359,6 +1426,7 @@ li {
   .service-grid,
   .why-grid,
   .pricing-grid,
+  .faq-grid,
   .client-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1479,6 +1547,7 @@ li {
   .pricing-grid,
   .process-grid,
   .compare-grid,
+  .faq-grid,
   .contact-form,
   .footer-grid,
   .client-grid {
